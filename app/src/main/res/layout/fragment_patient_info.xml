@@ -1,0 +1,137 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="140pt"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="com.example.ahmad.patientmanagement.PatientInfo">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_marginTop="5pt"
+                android:layout_marginBottom="5pt"
+                android:layout_marginLeft="45pt"
+                android:layout_width="50pt"
+                android:layout_height="50pt"
+                android:scaleType="fitXY"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5pt"
+    android:layout_marginTop="15pt"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="60pt"
+            android:layout_marginTop="@dimen/text_margin"
+            android:layout_height="wrap_content"
+            android:text="Name:"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_margin="@dimen/text_margin"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="@dimen/text_margin"
+            android:layout_height="wrap_content"
+            android:id="@+id/firstName"
+            android:textSize="20dp"
+            android:layout_margin="@dimen/text_margin"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="60pt"
+            android:layout_height="wrap_content"
+            android:text="Last Names"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_margin="@dimen/text_margin"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lastName"
+            android:textSize="20dp"
+            android:layout_margin="@dimen/text_margin"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="60pt"
+            android:layout_height="wrap_content"
+            android:text="Date of Birth"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_margin="@dimen/text_margin"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dob"
+            android:textSize="20dp"
+            android:layout_margin="@dimen/text_margin"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="60pt"
+            android:layout_height="wrap_content"
+            android:text="Date Admitted"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_margin="@dimen/text_margin"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dateAdmitted"
+            android:textSize="20dp"
+            android:layout_margin="@dimen/text_margin"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="60pt"
+            android:layout_height="wrap_content"
+            android:text="Emergency Contact"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_margin="@dimen/text_margin"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/emergCon"
+            android:textSize="20dp"
+            android:layout_margin="@dimen/text_margin"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="60pt"
+            android:layout_height="wrap_content"
+            android:text="Blood Type"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_margin="@dimen/text_margin"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bloodType"
+            android:textSize="20dp"
+            android:layout_margin="@dimen/text_margin"/>
+    </LinearLayout>
+
+</LinearLayout>
+
+</LinearLayout>
+

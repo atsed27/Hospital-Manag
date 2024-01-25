@@ -1,0 +1,176 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+
+
+    tools:context="com.example.ahmad.patientmanagement.PrescriptionFragment">
+
+    <TextView
+        android:layout_width="10pt"
+        android:layout_height="match_parent" />
+    <LinearLayout
+    android:layout_width="125pt"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+        android:background="@drawable/border2">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+        android:layout_width="40pt"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_margin="@dimen/text_margin"
+        android:text="Doctor "/>
+        <TextView
+            android:id="@+id/doctor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Doctor "/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="40pt"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:text="Medicine "
+            android:layout_margin="@dimen/text_margin" />
+        <TextView
+            android:id="@+id/medicine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="40pt"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Quantity"/>
+        <TextView
+            android:id="@+id/quantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:layout_marginTop="@dimen/text_margin">
+            <TextView
+                android:layout_width="48pt"
+                android:layout_height="wrap_content"
+                android:text="Morning"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
+            <ImageView
+                android:layout_width="8pt"
+                android:layout_height="8pt"
+                android:scaleType="fitCenter"
+                android:clickable="false"
+                android:id="@+id/morningCheckBox" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin">
+            <TextView
+                android:layout_width="48pt"
+                android:layout_height="wrap_content"
+                android:text="Afternoon"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
+            <ImageView
+                android:layout_width="8pt"
+                android:layout_height="8pt"
+                android:scaleType="fitCenter"
+                android:clickable="false"
+                android:id="@+id/noonCheckBox"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:layout_marginBottom="@dimen/text_margin">
+            <TextView
+                android:layout_width="48pt"
+                android:layout_height="wrap_content"
+                android:text="Evening"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
+            <ImageView
+                android:layout_width="8pt"
+                android:layout_height="8pt"
+                android:scaleType="fitCenter"
+                android:clickable="false"
+                android:id="@+id/eveningCheckBox"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mealRelationTextView"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_margin="@dimen/text_margin"       />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_margin="@dimen/text_margin"
+        android:text="Status : "
+        />
+
+</LinearLayout>
+
+</LinearLayout>

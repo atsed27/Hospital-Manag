@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.ahmad.patientmanagement.PrescriptionListerFragment"
+    android:layout_height="match_parent"
+    android:layout_width="200pt"
+    android:orientation="horizontal"
+    android:background="@color/white">
+    <ScrollView
+        android:layout_width="150pt"
+        android:layout_height="match_parent">
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="3pt"
+            android:id="@+id/prescriptionLinearLayout"
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Active Prescriptions"
+
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_margin="@dimen/text_margin"
+                android:textColor="@color/darkRed"/>
+        </LinearLayout>
+    </ScrollView>
+    <FrameLayout
+        android:layout_width="200pt"
+        android:layout_height="match_parent"
+        android:id="@+id/addPrescription"></FrameLayout>
+</LinearLayout>
